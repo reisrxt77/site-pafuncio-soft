@@ -1,0 +1,195 @@
+/***** ESTILOS PARA INDEX.HTML *****/
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /*tamanho total da tela*/
+}
+
+header {
+    background-color: #00160D;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#logo {
+    height: 150px;
+}
+
+#img-topo{
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+    background-image: url("img/imagem-topo.png");/*endereço da imagem*/
+    background-size: cover; /*cobrir todo espaço que precisa*/
+}
+
+nav {
+    background-color: #1b4332;
+    padding: 2px 0px 5px 0px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+#conteiner {
+padding: 50px;
+text-align: center;
+}
+
+h1 {
+    color: #22577a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#destaque {
+display: flex;
+justify-content: space-evenly;
+padding-top: 50px;
+}
+
+#destaque a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#destaque a:hover {
+    opacity: 1.0;
+}
+
+footer {
+    background-color:#081c15;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 0px;
+    margin-top: auto;
+}
+
+/****** estilos para sobre.html ****/
+
+#conteudo-empresa {
+    display: flex;
+}
+
+#conteudo-empresa-esquerda {
+    width: 50%;
+}
+
+#conteudo-empresa-direita {
+    width: 50%;
+}
+
+#conteudo-empresa-direita p {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#img-empresa {
+    width: 100%;
+}
+
+#selo-melhores-empresas {
+    height: 25%;
+    margin-top: 35px;
+}
+
+/***** estilos para solucoes.html *****/
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a;
+    font-size: 28px;
+}
+
+.destaques-produtos {
+    padding: 0px 15px;
+}
+
+.destaques-produtos a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.destaques-produtos a:hover {
+font-weight: bold;
+}
+
+/***** estilos para casos.html *****/
+
+.detalhe-caso {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.detalhe-caso img {
+    padding-right: 30px;
+}
+
+.detalhes-caso-texto {
+    text-align: start;
+}
+
+/***** estilos para contato.html *****/
+
+#frm-container {
+    display: flex;
+}
+
+#frm-labels {
+    background-color: white;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields {
+    background-color: white;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#frm-mensagem{
+    resize: none;
+}
+
+#frm-container select, input, textarea {
+    width: 380px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#bnt-enviar {
+    background-color: #37b400;
+    color: white;
+}
+
+#bnt-apagar {
+    background-color: #c4c4c4;
+    color: black;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    margin: 0px 15px;
+    border: 0;
+}
+
